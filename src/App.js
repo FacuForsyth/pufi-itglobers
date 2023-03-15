@@ -11,6 +11,7 @@ import DetailCart from './Assets/img/DetailCart.png'
 import DetailNap from './Assets/img/DetailNap.png'
 import Instagram from './Components/Instagram';
 import Footer from './Components/Footer';
+import NewsLetter from './Components/NewsLetter';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           name={"Pufi NAP"}
         />
         <Instagram />
+        <NewsLetter />
       </main>
       <Footer />
     </div>

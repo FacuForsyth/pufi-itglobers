@@ -5,12 +5,14 @@ import Rain from "../Assets/svg/rain.svg"
 import Cart from "../Assets/svg/cart.svg"
 import Nap from "../Assets/svg/nap.svg"
 import Abajo from "../Assets/svg/abajo.svg"
+import ImgCopyright from "../Assets/svg/copyright.svg"
 
 function NavBar() {
   return (
     <NavBarContainer>
       <div className="title">
-        <h1>Pufi®</h1>
+        <h1>Pufi</h1>
+        <img src={ImgCopyright} alt="" />
       </div>
       <div className="icons">
         <li className="item">

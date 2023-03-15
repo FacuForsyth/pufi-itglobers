@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
-
+  
   .container {
     display: flex;
     margin-top: 7%;
-    box-shadow: 5px -8px 28px 1px rgb(0 0 0 / 30%);
+    box-shadow: 5px -8px 28px 1px rgb(0 0 0 / 10%);
     padding: 3% 2%;
 
     .title {
@@ -18,12 +18,13 @@ export const FooterContainer = styled.footer`
       h2 {
         font-size: 3.5rem;
         margin: 0;
-        font-family: "BandaNova";
+        font-family: 'Quenda';
       }
       img {
         width: 10px;
         height: 10px;
-        margin-top: 6%;
+        margin: 4% 0 0 1%;
+        /* margin-top: 6%; */
       }
     }
     
@@ -32,6 +33,7 @@ export const FooterContainer = styled.footer`
       width: 20%;
       display: flex;
       flex-direction: column;
+      text-transform: uppercase;
       font-weight: 600;
       margin: 0;
       border-right: grey solid 1px;
@@ -50,6 +52,7 @@ export const FooterContainer = styled.footer`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      text-transform: uppercase;
       font-weight: 600;
       width: 20%;
       border-right: grey solid 1px;
@@ -64,8 +67,8 @@ export const FooterContainer = styled.footer`
         }
 
         .imgShield {
-          width: 4rem;
-          height: 4rem;
+          width: 4.2rem;
+          height: 4.2rem;
           margin-top: 3%;
         }
 
@@ -83,6 +86,7 @@ export const FooterContainer = styled.footer`
       flex-direction: row;
       width: 20%;
       padding-left: 5%;
+      text-transform: uppercase;
       img {
         width: 1.5rem;
         height: 1.5rem;
@@ -99,16 +103,16 @@ export const FooterContainer = styled.footer`
   }
 
   hr {
+    color: grey;
     width: 96%;
   }
 
   .container2 {
     display: flex;
     justify-content: space-between;
-    padding: 0.5% 0;
+    padding: 0.5% 0 1%;
     span {
       margin-left: 2%;
-      color: gray;
     }
     img {
       margin-right: 2%;

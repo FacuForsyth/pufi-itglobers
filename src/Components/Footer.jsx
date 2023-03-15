@@ -6,13 +6,15 @@ import ImgShield from "../Assets/svg/shield.svg"
 import ImgFacebook from "../Assets/svg/facebook.svg"
 import ImgTwitter from "../Assets/svg/twitter.svg"
 import ImgInstagram from "../Assets/svg/instagram.svg"
+import ImgCopyright from "../Assets/svg/copyright.svg"
 
 function Footer() {
   return (
     <FooterContainer>
       <div className="container">
         <div className="title">
-          <h2>Pufi R</h2>
+          <h2>Pufi</h2>
+          <img src={ImgCopyright} alt="" />
         </div>
         <ul className="listFooter">
           <li>Pufi Rain</li>
@@ -43,7 +45,7 @@ function Footer() {
       </div>
       <hr />
       <div className="container2">
-        <span>PUFI Copyright 2017 - Todos los derechos reservados</span>
+        <span>PUFI Copyright 2023 - Todos los derechos reservados</span>
         <img src={ImgBrandlive} alt="" />
       </div>
     </FooterContainer>

@@ -17,12 +17,13 @@ export const NavBarContainer = styled.nav`
       font-size: 4.5rem;
       margin: 0;
       color: white;
-      font-family: "BandaNova";
+      font-family: 'Quenda';
     }
     img {
       width: 10px;
       height: 10px;
       filter: invert(100%);
+      margin: 0 0 40% 2%;
     }
   }
 
@@ -36,14 +37,14 @@ export const NavBarContainer = styled.nav`
       display: flex;
       align-items: center;
       flex-direction: column;
-      padding: 0 5%;
+      padding: 3% 5%;
       :hover {
         transform: scale(1.1);
         transition: 0.8s;
         cursor: pointer;
       }
       h2 {
-        margin: 0;
+        margin: 5%;
         text-align: center;
         width: max-content;
         font-weight: 500;
@@ -73,6 +74,7 @@ export const NavBarContainer = styled.nav`
         }
         span {
           margin-right: 7px;
+          letter-spacing: .1em;
         }
         img {
           width: 10px;

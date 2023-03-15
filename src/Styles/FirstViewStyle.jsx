@@ -35,14 +35,16 @@ export const FirstViewContainer = styled.div`
         justify-content: space-between;
         align-items: center;
         & h1 {
+          font-family: 'Segoe UI';
           text-transform: uppercase;
           color: white;
           line-height: 100%;
           text-shadow: 2px 2px rgb(144 144 144);
-          font-weight: 500;
+          font-weight: 400;
         }
         & button {
           text-transform: uppercase;
+          letter-spacing: .2em;
           color: white;
           background: none;
           transform: scale(3);

@@ -22,6 +22,7 @@ export const ProductsContainer = styled.div`
       color: white;
       background: none;
       text-transform: uppercase;
+      letter-spacing: .2em;
       transform: scale(3);
       border: white solid 1px;
       font-size: 0.4rem;
@@ -52,6 +53,7 @@ export const ProductsContainer = styled.div`
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
+      font-family: 'Segoe UI';
       img {
         width: 26%;
         height: 32%;
@@ -73,6 +75,7 @@ export const ProductsContainer = styled.div`
         border: none;
         background-color: white;
         font-size: 1rem;
+        letter-spacing: .2em;
         text-transform: uppercase;
         margin-top: 4%;
         :hover {
