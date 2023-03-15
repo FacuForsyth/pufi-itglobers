@@ -2,8 +2,8 @@
 
 https://pufi-itglobers-three.vercel.app/
 
-![Imagen de la web](https://pufi-itglobers-three.vercel.app/src/Assets/img/landing_page.png)
-![Imagen de la web2](https://pufi-itglobers-three.vercel.app/src/Assets/img/products.png)
+![Imagen de la web](https://github.com/FacuForsyth/pufi-itglobers/blob/main/landing_page.png)
+![Imagen de la web2](https://github.com/FacuForsyth/pufi-itglobers/blob/main/products.png)
 
 # Getting Started with Create React App
 
