@@ -1,5 +1,6 @@
 import React from "react";
 import { FooterContainer } from "../Styles/FooterStyle";
+import LogoPufi from "../Assets/img/LogoPufi_negro.png"
 import ImgDataFiscal from "../Assets/img/DataFiscal.jpg"
 import ImgBrandlive from "../Assets/img/Brandlive.png"
 import ImgShield from "../Assets/svg/shield.svg"
@@ -13,8 +14,8 @@ function Footer() {
     <FooterContainer>
       <div className="container">
         <div className="title">
-          <h2>Pufi</h2>
-          <img src={ImgCopyright} alt="" />
+          <img className="logo" src={LogoPufi} alt="logo-pufi" />
+          <img className="copyright" src={ImgCopyright} alt="" />
         </div>
         <ul className="listFooter">
           <li>Pufi Rain</li>

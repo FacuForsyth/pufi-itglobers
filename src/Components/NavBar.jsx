@@ -1,5 +1,6 @@
 import React from "react";
 import { NavBarContainer } from "../Styles/NavBarStyle";
+import LogoPufi from "../Assets/img/LogoPufi_blanco.png"
 import Puff from "../Assets/svg/puff.svg"
 import Rain from "../Assets/svg/rain.svg"
 import Cart from "../Assets/svg/cart.svg"
@@ -11,8 +12,8 @@ function NavBar() {
   return (
     <NavBarContainer>
       <div className="title">
-        <h1>Pufi</h1>
-        <img src={ImgCopyright} alt="" />
+        <img className="logo" src={LogoPufi} alt="logo-pufi" />
+        <img className="copyright" src={ImgCopyright} alt="" />
       </div>
       <div className="icons">
         <li className="item">

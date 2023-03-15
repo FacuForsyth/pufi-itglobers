@@ -13,17 +13,16 @@ export const NavBarContainer = styled.nav`
     display: flex;
     align-items: center;
     padding-left: 2%;
-    h1 {
-      font-size: 4.5rem;
+    .logo {
       margin: 0;
-      color: white;
-      font-family: 'Quenda';
+      width: 120px;
+      height: 120px;
     }
-    img {
+    .copyright {
       width: 10px;
       height: 10px;
       filter: invert(100%);
-      margin: 0 0 40% 2%;
+      margin: 0 0 30% 0;
     }
   }
 

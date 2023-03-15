@@ -15,16 +15,15 @@ export const FooterContainer = styled.footer`
       align-items: flex-start;
       justify-content: flex-start;
       width: 20%;
-      h2 {
-        font-size: 3.5rem;
-        margin: 0;
-        font-family: 'Quenda';
+      .logo {
+      margin: 0;
+      width: 80px;
+      height: 80px;
       }
-      img {
+      .copyright {
         width: 10px;
         height: 10px;
-        margin: 4% 0 0 1%;
-        /* margin-top: 6%; */
+        margin: 8% 0 0 0;
       }
     }
     
