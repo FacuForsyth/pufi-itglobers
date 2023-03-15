@@ -1,3 +1,10 @@
+## Pufi website
+
+https://pufi-itglobers-three.vercel.app/
+
+![Imagen de la web](https://pufi-itglobers-three.vercel.app/src/Assets/img/landing_page.png)
+![Imagen de la web2](https://pufi-itglobers-three.vercel.app/src/Assets/img/products.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
